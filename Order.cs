@@ -8,6 +8,6 @@ namespace FastFood
 {
     class Order
     {
-
+        public int Price { get; set; }
     }
 }
