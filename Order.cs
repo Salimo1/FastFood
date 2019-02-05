@@ -8,6 +8,9 @@ namespace FastFood
 {
     class Order
     {
-        public int Price { get; set; }
+        public double Price { get; set; }
+        private List<Burger> burgers;
     }
+
+
 }
