@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="OrderView" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Order" HorizontalAlignment="Left" Margin="330,149,0,0" VerticalAlignment="Top" Width="116" Height="33" Click="Btn_OrderBurger"/>
+
     </Grid>
 </Window>

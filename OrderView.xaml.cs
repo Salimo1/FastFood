@@ -24,5 +24,9 @@ namespace FastFood
             InitializeComponent();
         }
 
+        private void Btn_OrderBurger(object sender, RoutedEventArgs e)
+        {
+            Order order = new Order();
+        }
     }
 }
