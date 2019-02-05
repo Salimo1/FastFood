@@ -10,6 +10,11 @@ namespace FastFood
     {
         public double Price { get; set; }
         private List<Burger> burgers;
+
+        public Order()
+        {
+            burgers = new List<Burger>();
+        }
     }
 
 
