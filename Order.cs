@@ -9,11 +9,11 @@ namespace FastFood
     class Order
     {
         public double Price { get; set; }
-        private List<Burger> burgers;
+        private List<Meal> meal;
 
         public Order()
         {
-            burgers = new List<Burger>();
+           meal = new List<Meal>();
         }
     }
 

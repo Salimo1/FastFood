@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Burger.cs" />
+    <Compile Include="Meal.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderView.xaml.cs">
       <DependentUpon>OrderView.xaml</DependentUpon>
@@ -94,6 +95,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\2uijcz7ogwk4cp7b.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
