@@ -8,6 +8,13 @@ namespace FastFood
 {
     class Burger
     {
+        public string Ingredients { get; set; }
+        public int Price { get; set; }
 
+        public Burger(string ingredients, int price)
+        {
+            Ingredients = ingredients;
+            Price = price;
+        }
     }
 }
